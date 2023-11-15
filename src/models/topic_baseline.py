@@ -5,7 +5,7 @@ import numpy as np
 import sys
 import argparse
 
-np.random.seed(1)
+
 
 from sklearn.metrics import accuracy_score,f1_score
 from src.loaders.load_data import load_data
